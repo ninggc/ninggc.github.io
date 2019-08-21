@@ -81,4 +81,24 @@ deploy:
   type: git
   repository: https://github.com/ninggc/ninggc.github.io
   branch: master
-  
+
+# deploy:
+#   type: rsync
+#   host: 119.28.72.123
+#   user: root
+#   root: /ninggc/
+#   port: 80
+#   delete: false
+#   verbose: true
+#   ignore_errors: true
+
+# deploy:
+#   type: ftpsync
+#   host: 119.28.72.123
+#   user: root
+#   pass: 906978985./root
+#   remote: /
+#   port: 22
+#   ignore: ignore
+#   connections: 1
+#   verbose: true
